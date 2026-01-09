@@ -60,9 +60,9 @@ nav .cta {
     gap: 40px;
     padding: 100px 60px;
 
-    background-image: url("/dushi_site/static/image7.png");
-    background-size: cover;          /* ממלא את כל האזור */
-    background-position: center;     /* בלי עיוות */
+    background-image: url("image7.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -152,6 +152,7 @@ nav .cta {
 
 .card img {
     width: 100%;
+    display: block;
 }
 
 .card p {
@@ -198,10 +199,9 @@ footer {
     .hero {
         grid-template-columns: 1fr;
         text-align: center;
-        background-position: center;
+        padding: 80px 30px;
     }
 }
-
 </style>
 </head>
 
@@ -227,7 +227,8 @@ footer {
     <h2>הפרסומת הרשמית</h2>
     <div class="video-box">
         <video controls>
-            <source src="/dushi_site/static/video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/mp4">
+            הדפדפן שלך לא תומך בווידאו
         </video>
     </div>
 </section>
@@ -236,19 +237,19 @@ footer {
     <h2>מה בתפריט?</h2>
     <div class="cards">
         <div class="card">
-            <img src="/dushi_site/static/image1.png">
+            <img src="image1.png" alt="">
             <p>ארוחת דושי קלאסית</p>
         </div>
         <div class="card">
-            <img src="/dushi_site/static/image2.png">
+            <img src="image2.png" alt="">
             <p>קינוח בננה פרימיום</p>
         </div>
         <div class="card">
-            <img src="/dushi_site/static/image3.jpg">
+            <img src="image3.jpg" alt="">
             <p>עובד החודש</p>
         </div>
         <div class="card">
-            <img src="/dushi_site/static/image4.jpg">
+            <img src="image4.jpg" alt="">
             <p>מהדורה מוגבלת</p>
         </div>
     </div>
